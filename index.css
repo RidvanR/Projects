@@ -1,0 +1,98 @@
+* {
+    padding: 0px; 
+    margin: 0px; 
+}
+
+.page-header { 
+    height: 10vh;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00739D;
+}
+
+.icon {
+  margin-right: 2rem; 
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+.icon:hover {
+    color:#EDEDED ;
+
+}
+.heading {
+    margin-left: 2rem; 
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+
+.page-footer {
+    background-color: #00739D;
+    height: 10vh;
+    display: flex; 
+    justify-content: space-between;  
+    margin-top: 3rem;
+
+}
+
+.heading-footer {
+    margin-top: auto;
+    margin-bottom: auto; 
+    color: white; 
+    font-weight: bold;
+    margin-left: 2rem; 
+
+}
+
+.footer-leftside {
+    color: white; 
+    font-weight: bold; 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2rem; 
+}
+
+.page-section { 
+    background-color: white;
+}
+
+.hangmanimg {
+    height: 200px;
+    width: 200px;
+}
+
+.spiel {
+    color: white;
+    text-decoration: none;
+}
+
+.spiel:hover {
+    color: wheat;
+}
+
+.spielüschrift {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.beschreibung {
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#spiel1btn {
+    margin-right: 30rem; 
+}
+

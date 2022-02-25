@@ -1,0 +1,63 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(43, 42, 51, 1);
+}
+
+
+.container {
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 5rem; 
+    height: 65vh;
+    width: 20vw;
+    background-color: navy;
+    box-shadow: 3px 3px 3px black;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.output {
+    background-color: gray;  
+    width: 15vw;
+    height: 10vh;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 1px solid black;
+    border-top: 2px solid navy;
+    display: flex;
+    flex-direction: column;
+}
+
+.numberbtn {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
+    margin-top: 3rem;
+    gap: 5px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+button:active {
+    transform: translateY(3px);
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 65px
+}
+
+p {
+    color: black; 
+    font-size: 25px; 
+}
+
+#equal {
+    background-color: lightblue;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <title>Taschenrechner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+        <div class="container"> <!-- Erstellung vom Gehäuse des Taschenrechners -->
+            <div class="output" id="output"> <!--Erstellung vom Display-->
+                <div id="display" style="font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 30px;"></div>
+                <div id="display1" style="font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 30px; text-decoration: underline;"></div>
+            </div> <!--Endtag von Erstellung des Displays-->
+            <div class="numberbtn" id="numberbtn"> <!--Erstellung von den Tasten-->
+                <button class="button">C</button>
+                <button class="button">/</button>
+                <button class="button">*</button>
+                <button class="button">DEL</button>
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button">-</button>
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button">+</button>
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">.</button>
+                <button  id="equal" class="button">=</button>
+            </div> <!--Endtag von Erstellung der Tasten-->
+        </div> <!--End-Tag vom Gehäuse des Taschenrechners-->
+
+        <script src="calc.js"></script>
+</body>
+</html>
