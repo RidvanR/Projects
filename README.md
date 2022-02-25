@@ -1,2 +1,2 @@
 # Projects
-A Website with my beginner JavaScripts Projects
+A Website with some beginner JavaScripts Projects
